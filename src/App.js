@@ -1,8 +1,9 @@
 import './App.css';
-import { NavBar } from './components/NavBar.js';
-import { ItenListContainer } from './components/ItemListContainer.js';
+import { NavBar } from './components/NavBar';
+import { ItenListContainer } from './components/ItemListContainer';
 
 function App() {
+
   return (
     <>
       <NavBar />

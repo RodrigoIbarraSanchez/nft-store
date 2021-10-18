@@ -31,3 +31,44 @@ body {
   float: right;
   margin-right: 10px;
 }
+
+.contenedorItem {
+  width: 300px;
+  background: rgb(237, 235, 235);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+}
+
+.stockDisponible {
+  color: grey;
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.buttons {
+  background: white;
+  border: solid 1px rgb(215, 214, 214);
+  border-radius: 5px;
+}
+
+.buttons .decrementoItem {
+  color: rgb(69, 69, 255);
+  border: none;
+  background:transparent;
+  font-size:30px;
+  float: left;
+  margin-top: -7px;
+  cursor: pointer;
+}
+
+.buttons .incrementoItem {
+  color: rgb(69, 69, 255);
+  border: none;
+  background:transparent;
+  font-size:30px;
+  float: right;
+  margin-top: -7px;
+  cursor: pointer;
+}
