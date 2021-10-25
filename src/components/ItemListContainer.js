@@ -1,9 +1,10 @@
-import { ItemCount } from './ItemCount';
+import { ItemCount } from "./ItemCount";
+import { ItemList } from "./ItemList";
 
 export const ItenListContainer = () => {
-    return (
-        <>
-          <ItemCount stock='5' />
-        </>
-    );
-}
+  return (
+    <>
+      <ItemList />
+    </>
+  );
+};
