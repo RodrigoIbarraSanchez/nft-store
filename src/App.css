@@ -138,3 +138,13 @@ body {
   margin-top: -7px;
   cursor: pointer;
 }
+
+.ItemdetailImage {
+  width: 550px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 1px -4px 4px #00000073;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

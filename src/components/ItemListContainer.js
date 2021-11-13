@@ -1,7 +1,6 @@
-import { ItemCount } from "./ItemCount";
 import { ItemList } from "./ItemList";
 
-export const ItenListContainer = () => {
+export const ItemListContainer = () => {
   return (
     <>
       <ItemList />

@@ -108,7 +108,6 @@ export const Item = () => {
 
   useEffect(() => {
     const task = new Promise((resolve, reject) => {
-      // TAREA ASICRÓNICA O MUY COSTOSA
       setTimeout(() => {
         resolve(data);
       }, 3000);
