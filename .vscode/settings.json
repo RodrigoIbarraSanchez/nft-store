@@ -1,0 +1,6 @@
+{
+  "editor.snippetSuggestions": "none",
+  "emmet.includeLanguages": {
+    "js": "html"
+  }
+}

@@ -1,12 +1,9 @@
-import { Link, useParams } from "react-router-dom";
-import { ItemList } from "./ItemList";
+import { Link } from "react-router-dom";
+import { CategoryItem } from "./CategoryItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 import "../fontawesome";
 
-export const ItemListContainer = () => {
-  const { itemId } = useParams();
-
+export const ItemCategoryContainer = (props) => {
   return (
     <>
       <div className="container-fluid">
@@ -91,7 +88,7 @@ export const ItemListContainer = () => {
             </div>
           </div>
           <div className="col-md-10">
-            <ItemList />
+            <CategoryItem />
           </div>
         </div>
       </div>
