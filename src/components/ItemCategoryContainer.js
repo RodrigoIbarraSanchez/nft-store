@@ -33,7 +33,7 @@ export const ItemCategoryContainer = (props) => {
                     <ul style={{ listStyle: "none" }}>
                       <Link to="/category/art">
                         <li>
-                          <a className="categoryItem" href="#">
+                          <a class="categoryItem" href="#">
                             <FontAwesomeIcon icon={["fas", "palette"]} />
                             <span style={{ marginLeft: 5 }}>Art</span>
                           </a>
@@ -41,7 +41,7 @@ export const ItemCategoryContainer = (props) => {
                       </Link>
                       <Link to="/category/music">
                         <li>
-                          <a className="categoryItem" href="">
+                          <a class="categoryItem" href="">
                             <FontAwesomeIcon icon={["fas", "music"]} />
                             <span style={{ marginLeft: 5 }}>Music</span>
                           </a>
@@ -49,7 +49,7 @@ export const ItemCategoryContainer = (props) => {
                       </Link>
                       <Link to="/category/virtual-worlds">
                         <li>
-                          <a className="categoryItem" href="">
+                          <a class="categoryItem" href="">
                             <FontAwesomeIcon icon={["fas", "globe-americas"]} />
                             <span style={{ marginLeft: 5 }}>
                               Virtual Worlds
@@ -59,7 +59,7 @@ export const ItemCategoryContainer = (props) => {
                       </Link>
                       <Link to="/category/trading-cards">
                         <li>
-                          <a className="categoryItem" href="">
+                          <a class="categoryItem" href="">
                             <FontAwesomeIcon icon={["fas", "exchange-alt"]} />
                             <span style={{ marginLeft: 5 }}>Trading Cards</span>
                           </a>
@@ -67,7 +67,7 @@ export const ItemCategoryContainer = (props) => {
                       </Link>
                       <Link to="/category/collectibles">
                         <li>
-                          <a className="categoryItem" href="">
+                          <a class="categoryItem" href="">
                             <FontAwesomeIcon icon={["fas", "laptop"]} />
                             <span style={{ marginLeft: 5 }}>Collectibles</span>
                           </a>
@@ -75,7 +75,7 @@ export const ItemCategoryContainer = (props) => {
                       </Link>
                       <Link to="/category/sports">
                         <li>
-                          <a className="categoryItem" href="">
+                          <a class="categoryItem" href="">
                             <FontAwesomeIcon icon={["fas", "futbol"]} />
                             <span style={{ marginLeft: 5 }}>Sports</span>
                           </a>

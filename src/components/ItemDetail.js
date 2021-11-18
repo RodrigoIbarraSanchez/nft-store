@@ -1,3 +1,4 @@
+import { ItemCount } from "./ItemCount";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../data";
@@ -6,7 +7,6 @@ import "../fontawesome";
 
 export const ItemDetail = () => {
   const { itemId } = useParams();
-  const [item, setItem] = useState(null);
 
   return (
     <>
@@ -136,14 +136,13 @@ export const ItemDetail = () => {
                     {" "}
                     ($189.04)
                   </span>
+                  <ItemCount initial={1} stock={8} />
                 </h3>
-                <a href="#" class="btn btn-primary">
-                  Buy Now!
-                </a>
+                <a class="btn btn-primary addToCartButton">Add to Cart</a>
                 <a
                   style={{ color: "#06D3D7", borderColor: "#06D3D7" }}
                   href="#"
-                  class="btn btn-outline-primary"
+                  class="btn btn-outline-primary makeOfferButton"
                   style={{ marginLeft: 10 }}
                 >
                   Make offer

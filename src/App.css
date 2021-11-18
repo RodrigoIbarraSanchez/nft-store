@@ -33,7 +33,7 @@ body {
 
 .contenedorItem {
   float: left;
-  width: 195px;
+  width: 220px;
   height: 300px;
   background: rgb(255, 255, 255);
   border-radius: 20px;
@@ -117,29 +117,51 @@ body {
 }
 
 .buttons {
+  width: 100px;
   background: white;
   border: solid 1px rgb(215, 214, 214);
   border-radius: 5px;
+  text-align: center;
 }
 
 .buttons .decrementoItem {
-  color: rgb(69, 69, 255);
+  color: #06d3d7;
   border: none;
   background: transparent;
   font-size: 30px;
   float: left;
-  margin-top: -7px;
+  margin-top: -3px;
   cursor: pointer;
 }
 
 .buttons .incrementoItem {
-  color: rgb(69, 69, 255);
+  color: #06d3d7;
   border: none;
   background: transparent;
   font-size: 30px;
   float: right;
-  margin-top: -7px;
+  margin-top: -3px;
   cursor: pointer;
+}
+
+.addToCartButton {
+  background: #06d3d7;
+  border-color: #06d3d7;
+}
+
+.addToCartButton:hover {
+  background: rgb(55, 133, 135);
+  border: rgb(55, 133, 135);
+}
+
+.makeOfferButton {
+  color: #06d3d7;
+  border-color: #06d3d7;
+}
+
+.makeOfferButton:hover {
+  background: rgb(55, 133, 135);
+  border: rgb(55, 133, 135);
 }
 
 .ItemdetailImage {
@@ -164,4 +186,12 @@ body {
 
 .categoryItem:hover {
   color: #06d3d7;
+}
+
+.accordion-body ul a {
+  text-decoration: none;
+}
+
+.cantidadItem {
+  text-align: center;
 }
